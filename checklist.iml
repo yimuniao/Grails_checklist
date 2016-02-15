@@ -108,6 +108,11 @@
       <library name="Grails User Library (checklist)">
         <CLASSES>
           <root url="file://$MODULE_DIR$/lib" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails.plugins/resources/zips/resources-1.1.6.zip!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails.plugins/jquery/zips/jquery-1.11.1.zip!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails.plugins/hibernate/zips/hibernate-2.1.3.zip!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails.plugins/tomcat/zips/tomcat-2.1.3.zip!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails.plugins/webxml/zips/webxml-1.4.1.zip!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

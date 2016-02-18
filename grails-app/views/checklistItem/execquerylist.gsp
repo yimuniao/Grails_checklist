@@ -1,5 +1,5 @@
 
-<%@ page import="checklist.ChecklistItem" %>
+<%@ page import="checklist.ChecklistItem"  %>
 <!doctype html>
 <html>
 	<head>

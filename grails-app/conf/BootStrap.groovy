@@ -1,3 +1,5 @@
+import app.domains.Bookmark
+import app.domains.Category
 import grails.util.Environment
 import grails.util.GrailsUtil
 import checklist.User
@@ -5,6 +7,7 @@ import checklist.User
 
 class BootStrap {
 
+    def categoryService
     def init = { servletContext ->
 		/*switch(GrailsUtil.getEnvironment())*/
 		switch(Environment.getCurrent().name)
@@ -25,7 +28,16 @@ class BootStrap {
 			{
 				println jdoe.errors
 			}
+			
+		categoryService.generateDefaultCategories()
+			
+		Bookmark book1 = new Bookmark(url: 'http://www.infoq.com/grails',title: 'InfoQ Java',
+			description: 'Arcticles, presentations and interviews about Grails', category: Category.findByName('Grails'))
+		
+		assert book1.save(flush: true)
 		}
+		
+		
     }
     def destroy = {
     }

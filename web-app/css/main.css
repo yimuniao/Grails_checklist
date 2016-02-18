@@ -227,7 +227,7 @@ fieldset,
 .fieldcontain .property-label {
 	color: #666666;
 	text-align: right;
-	width: 12%;
+	width: 25%;
 }
 
 .fieldcontain .property-label {
@@ -573,6 +573,11 @@ th:hover, tr:hover {
 	text-indent: 25px;
 }
 
+.ie6 .buttons input.delete, .ie6 .buttons input.edit, .ie6 .buttons input.save,
+.ie7 .buttons input.delete, .ie7 .buttons input.edit, .ie7 .buttons input.save {
+	padding-left: 36px;
+}
+
 .buttons .delete {
 	background-image: url(../images/skin/database_delete.png);
 }
@@ -589,22 +594,3 @@ a.skip {
 	position: absolute;
 	left: -9999px;
 }
-
-#loginHeader{
-	background:#48802c;
-	float:right;
-	color:#fff;	
-
-	
-}
-
-#loginHeader a {
-	font-variant: small-caps;
-	color: #fff;
-	text-transform: uppercase;
-
-	background-color: 48802c;
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: 400
-}
-

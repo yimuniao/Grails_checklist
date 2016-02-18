@@ -10,7 +10,7 @@ class Category {
 	
 	static hasMany = [subcategories : Category]
 	
-	static mappedBy = [children: 'parent']
+//	static mappedBy = [children: 'parent']
 	
 	static constraints = {
 		name blank: false, maxSize: 30

@@ -59,6 +59,13 @@ Ext.define('Bookmarks.view.BookmarksGrid', {
         type : 'plus'
     }, {
         type : 'minus'
-    }]
+    }],
+
+    // 下面会控制是否显示 “Loading.gif”， when select one category. true， 有loading显示， false， 无显示
+    viewConfig:{
+        loadMask:true
+    }
+
+
 
 });

@@ -13,5 +13,5 @@ Ext.define('Bookmarks.store.CategoryTree', {
     },
 
     autoLoad : true
-    
+
 });

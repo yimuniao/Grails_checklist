@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/checklist.iml" filepath="$PROJECT_DIR$/checklist.iml" />
-      <module fileurl="file://$PROJECT_DIR$/checklist-grailsPlugins.iml" filepath="$PROJECT_DIR$/checklist-grailsPlugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Grails_checklist.iml" filepath="$PROJECT_DIR$/Grails_checklist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Grails_checklist-grailsPlugins.iml" filepath="$PROJECT_DIR$/Grails_checklist-grailsPlugins.iml" />
     </modules>
   </component>
 </project>
